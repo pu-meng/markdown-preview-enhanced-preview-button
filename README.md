@@ -1,9 +1,4 @@
-# Markdown Preview Enhanced Preview Button
-
-**中文：MPE 预览按钮 / VS Code Markdown 侧边预览按钮**
-
-> 给 **Markdown Preview Enhanced (MPE)** 增加一个始终可见的 VS Code 侧边预览按钮。  
-> Add a visible editor-title button for Markdown Preview Enhanced side preview.
+解决 Markdown Preview Enhanced 预览功能存在、但右上角预览按钮不显示或入口不明显的问题。
 
 ## 解决的问题
 
