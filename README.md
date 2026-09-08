@@ -60,7 +60,11 @@ MPE 侧边预览
 ```text
 %USERPROFILE%\.vscode\extensions\local.mpe-preview-button-0.0.1
 ```
-
+常用是
+```text
+C:\Users\admin\.vscode\extensions
+```
+压缩包解压缩放到这个位置就可以了;
 3. 确保 Markdown Preview Enhanced 已安装。
 4. 在 VS Code 中执行：
 
