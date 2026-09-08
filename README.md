@@ -1,4 +1,4 @@
-解决 Markdown Preview Enhanced 预览功能存在、但右上角预览按钮不显示或入口不明显的问题。
+# 解决 Markdown Preview Enhanced 预览功能存在、但右上角预览按钮不显示或入口不明显的问题。
 
 ## 解决的问题
 
