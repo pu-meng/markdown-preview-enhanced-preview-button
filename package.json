@@ -1,0 +1,59 @@
+{
+  "name": "markdown-preview-enhanced-preview-button",
+  "displayName": "Markdown Preview Enhanced Preview Button",
+  "description": "为 Markdown Preview Enhanced 添加始终可见的 VS Code 侧边预览按钮 | Visible side-preview button for MPE.",
+  "version": "0.0.1",
+  "publisher": "pu-meng",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onCommand:mpePreviewButton.openToSide"
+  ],
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "mpePreviewButton.openToSide",
+        "title": "MPE: 打开侧边预览",
+        "icon": {
+          "light": "icons/preview-light.svg",
+          "dark": "icons/preview-dark.svg"
+        }
+      }
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "mpePreviewButton.openToSide",
+          "when": "editorLangId == markdown",
+          "group": "navigation@1"
+        }
+      ]
+    }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pu-meng/markdown-preview-enhanced-preview-button.git"
+  },
+  "keywords": [
+    "markdown-preview-enhanced",
+    "markdown preview enhanced",
+    "mpe",
+    "vscode",
+    "vscode-extension",
+    "markdown",
+    "preview",
+    "preview-button",
+    "side-preview",
+    "remote-ssh"
+  ]
+}
